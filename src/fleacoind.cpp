@@ -20,8 +20,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Dogecoin (http://www.dogecoin.com/),
- * which enables instant payments to anyone, anywhere in the world. Dogecoin uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Fleacoin (http://www.dogecoin.com/),
+ * which enables instant payments to anyone, anywhere in the world. Fleacoin uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -86,11 +86,11 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to dogecoind / RPC client
-            std::string strUsage = _("Dogecoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Fleacoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  dogecoind [options]                     " + _("Start Dogecoin Core Daemon") + "\n" +
+                  "  dogecoind [options]                     " + _("Start Fleacoin Core Daemon") + "\n" +
                 _("Usage (deprecated, use dogecoin-cli):") + "\n" +
-                  "  dogecoind [options] <command> [params]  " + _("Send command to Dogecoin Core") + "\n" +
+                  "  dogecoind [options] <command> [params]  " + _("Send command to Fleacoin Core") + "\n" +
                   "  dogecoind [options] help                " + _("List commands") + "\n" +
                   "  dogecoind [options] help <command>      " + _("Get help for a command") + "\n";
 
@@ -116,7 +116,7 @@ bool AppInit(int argc, char* argv[])
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Dogecoin server starting\n");
+            fprintf(stdout, "Fleacoin server starting\n");
 
             // Daemonize
             pid_t pid = fork();

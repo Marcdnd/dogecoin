@@ -45,11 +45,11 @@ If you run this script from src/ it will automatically update the year on the co
 
 For example a file changed in 2014 (with 2014 being the current year):
 ```// Copyright (c) 2009-2013 The Bitcoin developers```
-```// Copyright (c) 2013-2014 The Dogecoin developers```
+```// Copyright (c) 2013-2014 The Fleacoin developers```
 
 would be changed to:
 ```// Copyright (c) 2009-2013 The Bitcoin developers```
-```// Copyright (c) 2013-2014 The Dogecoin developers```
+```// Copyright (c) 2013-2014 The Fleacoin developers```
 
 symbol-check.py
 ==================

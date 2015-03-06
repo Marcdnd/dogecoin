@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2013-2014 The Dogecoin developers
+// Copyright (c) 2013-2014 The Fleacoin developers
 // Copyright (c)      2014 The Inutoshi developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -142,7 +142,7 @@ public:
         assert(hashGenesisBlock == uint256("0x1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691"));
         assert(genesis.hashMerkleRoot == uint256("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
-        vSeeds.push_back(CDNSSeedData("dogecoin.com", "seed.dogecoin.com"));
+        vSeeds.push_back(CDNSSeedData("fleacoin.com", "seed.fleacoin.com"));
         vSeeds.push_back(CDNSSeedData("mophides.com", "seed.mophides.com"));
         vSeeds.push_back(CDNSSeedData("dglibrary.org", "seed.dglibrary.org"));
         vSeeds.push_back(CDNSSeedData("dogechain.info", "seed.dogechain.info"));

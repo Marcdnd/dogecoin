@@ -42,7 +42,7 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Dogecoin"
-#define QAPP_ORG_DOMAIN "dogecoin.com"
+#define QAPP_ORG_DOMAIN "fleacoin.com"
 #define QAPP_APP_NAME_DEFAULT "Dogecoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Dogecoin-Qt-testnet"
 

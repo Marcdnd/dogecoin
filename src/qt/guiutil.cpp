@@ -103,8 +103,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no dogecoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("dogecoin"))
+    // return if URI is not valid or is no fleacoin: URI
+    if(!uri.isValid() || uri.scheme() != QString("fleacoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -166,13 +166,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert dogecoin:// to dogecoin:
+    // Convert fleacoin:// to fleacoin:
     //
-    //    Cannot handle this later, because dogecoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because fleacoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("dogecoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("fleacoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "dogecoin:");
+        uri.replace(0, 11, "fleacoin:");
     }
     
     QUrl uriInstance(uri);
@@ -181,7 +181,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("dogecoin:%1").arg(info.address);
+    QString ret = QString("fleacoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -597,7 +597,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "dogecoin.desktop";
+    return GetAutostartDir() / "fleacoin.desktop";
 }
 
 bool GetStartOnSystemStartup()

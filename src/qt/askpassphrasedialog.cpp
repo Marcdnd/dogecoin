@@ -118,7 +118,7 @@ void AskPassphraseDialog::accept()
                                          "<qt>" +
                                          tr("Dogecoin Core will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
-                                         "your dogecoins from being stolen by malware infecting your computer.") +
+                                         "your fleacoins from being stolen by malware infecting your computer.") +
                                          "<br><br><b>" +
                                          tr("IMPORTANT: Any previous backups you have made of your wallet file "
                                          "should be replaced with the newly generated, encrypted wallet file. "

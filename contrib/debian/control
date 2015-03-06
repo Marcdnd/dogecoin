@@ -1,4 +1,4 @@
-Source: dogecoin
+Source: fleacoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -21,11 +21,11 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.dogecoin.com/
-Vcs-Git: git://github.com/dogecoin/dogecoin.git
-Vcs-Browser: http://github.com/dogecoin/dogecoin
+Homepage: http://www.fleacoin.com/
+Vcs-Git: git://github.com/fleacoin/fleacoin.git
+Vcs-Browser: http://github.com/fleacoin/fleacoin
 
-Package: dogecoind
+Package: fleacoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -39,10 +39,10 @@ Description: peer-to-peer network based digital currency - daemon
  requires 20+ GB of space, slowly growing.
  .
 
- This package provides the daemon, dogecoind, and the CLI tool
- dogecoin-cli to interact with the daemon.
+ This package provides the daemon, fleacoind, and the CLI tool
+ fleacoin-cli to interact with the daemon.
 
-Package: dogecoin-qt
+Package: fleacoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

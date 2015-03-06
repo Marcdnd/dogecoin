@@ -1,11 +1,12 @@
 *.tar.gz
 
 *.exe
-src/dogecoin
-src/dogecoind
-src/dogecoin-cli
+src/fleacoin
+src/fleacoind
+src/fleacoin-cli
+src/test/test_fleacoin
 src/test/test_dogecoin
-src/qt/test/test_dogecoin-qt
+src/qt/test/test_fleacoin-qt
 
 Makefile.in
 aclocal.m4

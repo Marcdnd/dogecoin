@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2013-2014 The Dogecoin developers
+// Copyright (c) 2013-2014 The Fleacoin developers
 // Copyright (c) 2014-2015 The Inutoshi developers
 // Copyright (c)      2015 The Fleacoin developers
 
@@ -147,7 +147,7 @@ public:
         vSeeds.push_back(CDNSSeedData("fleacoin.com", "seed.fleacoin.com"));
         vSeeds.push_back(CDNSSeedData("mophides.com", "seed.mophides.com"));
         vSeeds.push_back(CDNSSeedData("dglibrary.org", "seed.dglibrary.org"));
-        vSeeds.push_back(CDNSSeedData("dogechain.info", "seed.dogechain.info"));
+        vSeeds.push_back(CDNSSeedData("fleachain.info", "seed.fleachain.info"));
 
         // Workaround for Boost not being quite compatible with C++11;
         std::vector<unsigned char> pka = list_of(30);
@@ -220,8 +220,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testdoge.lionservers.de", "testdoge-seed.lionservers.de"));
-        vSeeds.push_back(CDNSSeedData("lionservers.de", "testdoge-seed-static.lionservers.de"));
+        vSeeds.push_back(CDNSSeedData("testflea.lionservers.de", "testflea-seed.lionservers.de"));
+        vSeeds.push_back(CDNSSeedData("lionservers.de", "testflea-seed-static.lionservers.de"));
 
         // Boost sucks, and should not be used. Workaround for Boost not being compatible with C++11;
         

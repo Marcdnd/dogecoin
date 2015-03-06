@@ -20,7 +20,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "If the file does not exist, create it with owner-readable-only file "
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
-"for example: alertnotify=echo %%s | mail -s \"Dogecoin Alert\" admin@foo."
+"for example: alertnotify=echo %%s | mail -s \"Fleacoin Alert\" admin@foo."
 "com\n"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!"
@@ -34,7 +34,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Cannot obtain a lock on data directory %s. Dogecoin is probably already "
+"Cannot obtain a lock on data directory %s. Fleacoin is probably already "
 "running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
@@ -94,7 +94,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "mining or merchant applications"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
-"Unable to bind to %s on this computer. Dogecoin is probably already running."),
+"Unable to bind to %s on this computer. Fleacoin is probably already running."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -"
 "proxy)"),
@@ -106,7 +106,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", ""
 "or other nodes may need to upgrade."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Dogecoin will not work properly."),
+"your clock is wrong Fleacoin will not work properly."),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -132,8 +132,8 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Allow DNS lookups for -addnode, -seednode and
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow JSON-RPC connections from specified IP address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Allow peers to set bloom filters (default: 1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Dogecoin Core Daemon"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Dogecoin Core RPC client version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Fleacoin Core Daemon"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Fleacoin Core RPC client version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Block creation options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot downgrade wallet"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Cannot resolve -bind address: '%s'"),
@@ -151,15 +151,15 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Disable safemode, override a real safe mode e
 QT_TRANSLATE_NOOP("bitcoin-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Do not load the wallet and disable wallet RPC calls"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Do you want to rebuild the block database now?"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Dogecoin Core Daemon"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Dogecoin RPC client version"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Fleacoin Core Daemon"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Fleacoin RPC client version"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Done loading"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error initializing block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error initializing wallet database environment %s!"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of Dogecoin"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Error loading wallet.dat: Wallet requires newer version of Fleacoin"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Error: Disk space is low!"),
@@ -226,7 +226,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Run a thread to flush wallet periodically (de
 QT_TRANSLATE_NOOP("bitcoin-core", "Run in the background as a daemon and accept commands"),
 QT_TRANSLATE_NOOP("bitcoin-core", "SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Select SOCKS version for -proxy (4 or 5, default: 5)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Send command to Dogecoin server"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Send command to Fleacoin server"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send commands to node running on <ip> (default: 127.0.0.1)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Send trace/debug info to console instead of debug.log file"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Server certificate file (default: server.cert)"),
@@ -248,7 +248,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Specify pid file (default: fleacoind.pid)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Spend unconfirmed change when sending transactions (default: 1)"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Start Dogecoin server"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Start Fleacoin server"),
 QT_TRANSLATE_NOOP("bitcoin-core", "System error: "),
 QT_TRANSLATE_NOOP("bitcoin-core", "This help message"),
 QT_TRANSLATE_NOOP("bitcoin-core", "This is intended for regression testing tools and app development."),
@@ -272,7 +272,7 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wait for RPC server to start"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Dogecoin Core to complete"),
+QT_TRANSLATE_NOOP("bitcoin-core", "Wallet needed to be rewritten: restart Fleacoin Core to complete"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning"),
 QT_TRANSLATE_NOOP("bitcoin-core", "Warning: Deprecated argument -debugnet ignored, use -debug=net"),

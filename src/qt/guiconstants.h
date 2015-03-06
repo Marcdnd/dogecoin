@@ -41,9 +41,9 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "Dogecoin"
+#define QAPP_ORG_NAME "Fleacoin"
 #define QAPP_ORG_DOMAIN "fleacoin.com"
-#define QAPP_APP_NAME_DEFAULT "Dogecoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Dogecoin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Fleacoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Fleacoin-Qt-testnet"
 
 #endif // GUICONSTANTS_H

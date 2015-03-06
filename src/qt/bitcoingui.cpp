@@ -73,7 +73,7 @@ BitcoinGUI::BitcoinGUI(bool fIsTestnet, QWidget *parent) :
 {
     GUIUtil::restoreWindowGeometry("nWindow", QSize(850, 550), this);
 
-    QString windowTitle = tr("Dogecoin Core") + " - ";
+    QString windowTitle = tr("Fleacoin Core") + " - ";
 #ifdef ENABLE_WALLET
     /* if compiled with wallet support, -disablewallet can still disable the wallet */
     bool enableWallet = !GetBoolArg("-disablewallet", false);
@@ -130,7 +130,7 @@ BitcoinGUI::BitcoinGUI(bool fIsTestnet, QWidget *parent) :
         setCentralWidget(rpcConsole);
     }
     
-    // Dogecoin: load fallback font in case Comic Sans is not availble on the system
+    // Fleacoin: load fallback font in case Comic Sans is not availble on the system
     QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold");
     QFontDatabase::addApplicationFont(":fonts/ComicNeue-Bold-Oblique");
     QFontDatabase::addApplicationFont(":fonts/ComicNeue-Light");
@@ -139,10 +139,10 @@ BitcoinGUI::BitcoinGUI(bool fIsTestnet, QWidget *parent) :
     QFontDatabase::addApplicationFont(":fonts/ComicNeue-Regular-Oblique");
     QFont::insertSubstitution("Comic Sans MS", "Comic Neue");
 
-    // Dogecoin: Specify Comic Sans as new font.
+    // Fleacoin: Specify Comic Sans as new font.
     QFont newFont("Comic Sans MS", 10);
 
-    // Dogecoin: Set new application font
+    // Fleacoin: Set new application font
     QApplication::setFont(newFont);
 
     // Accept D&D of URIs
@@ -243,7 +243,7 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a Dogecoin address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a Fleacoin address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
@@ -279,10 +279,10 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
     if (!fIsTestnet)
-        aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About Dogecoin Core"), this);
+        aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About Fleacoin Core"), this);
     else
-        aboutAction = new QAction(QIcon(":/icons/bitcoin_testnet"), tr("&About Dogecoin Core"), this);
-    aboutAction->setStatusTip(tr("Show information about Dogecoin"));
+        aboutAction = new QAction(QIcon(":/icons/bitcoin_testnet"), tr("&About Fleacoin Core"), this);
+    aboutAction->setStatusTip(tr("Show information about Fleacoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
 #if QT_VERSION < 0x050000
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
@@ -292,7 +292,7 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     aboutQtAction->setStatusTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setStatusTip(tr("Modify configuration options for Dogecoin Core"));
+    optionsAction->setStatusTip(tr("Modify configuration options for Fleacoin Core"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     if (!fIsTestnet)
         toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
@@ -308,9 +308,9 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your Dogecoin addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your Fleacoin addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Dogecoin addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified Fleacoin addresses"));
     paperWalletAction = new QAction(QIcon(":/icons/print"), tr("&Print paper wallets"), this);
     paperWalletAction->setStatusTip(tr("Print paper wallets"));
 
@@ -326,7 +326,7 @@ void BitcoinGUI::createActions(bool fIsTestnet)
     openAction->setStatusTip(tr("Open a fleacoin: URI or payment request"));
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
-    showHelpMessageAction->setStatusTip(tr("Show the Dogecoin Core help message to get a list with possible command-line options"));
+    showHelpMessageAction->setStatusTip(tr("Show the Fleacoin Core help message to get a list with possible command-line options"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
@@ -488,12 +488,12 @@ void BitcoinGUI::createTrayIcon(bool fIsTestnet)
 
     if (!fIsTestnet)
     {
-        trayIcon->setToolTip(tr("Dogecoin client"));
+        trayIcon->setToolTip(tr("Fleacoin client"));
         trayIcon->setIcon(QIcon(":/icons/toolbar"));
     }
     else
     {
-        trayIcon->setToolTip(tr("Dogecoin client") + " " + tr("[testnet]"));
+        trayIcon->setToolTip(tr("Fleacoin client") + " " + tr("[testnet]"));
         trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
     }
 
@@ -636,7 +636,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Dogecoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Fleacoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)
@@ -748,7 +748,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("Dogecoin"); // default title
+    QString strTitle = tr("Fleacoin"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -774,7 +774,7 @@ void BitcoinGUI::message(const QString &title, const QString &message, unsigned 
             break;
         }
     }
-    // Append title to "Dogecoin - "
+    // Append title to "Fleacoin - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 

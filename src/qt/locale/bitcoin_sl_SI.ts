@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>O jedru Dogecoina</translation>
+        <source>About Fleacoin Core</source>
+        <translation>O jedru Fleacoina</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Jedro Dogecoina&lt;/b&gt; različica</translation>
+        <source>&lt;b&gt;Fleacoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Jedro Fleacoina&lt;/b&gt; različica</translation>
     </message>
     <message>
         <source>
@@ -23,7 +23,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
+        <source>The Fleacoin Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -98,12 +98,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Prejemati naslovi</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To so Dogecoin naslovi za pošiljanje plačilnih čekov. Vedno preveri količino in naslov za prejemanje pred pošiljanjem kovancev.</translation>
+        <source>These are your Fleacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To so Fleacoin naslovi za pošiljanje plačilnih čekov. Vedno preveri količino in naslov za prejemanje pred pošiljanjem kovancev.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To so vaši Dogecoin naslovi za prejemanje plačil. Priporočljivo je uporabljati nov prejemni naslov za vsako izmed transakcij.</translation>
+        <source>These are your Fleacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To so vaši Fleacoin naslovi za prejemanje plačil. Priporočljivo je uporabljati nov prejemni naslov za vsako izmed transakcij.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -200,7 +200,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Potrdi šifriranje denarnice</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLEACOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -220,8 +220,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Denarnica šifrirana</translation>
     </message>
     <message>
-        <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
+        <source>Fleacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fleacoins from being stolen by malware infecting your computer.</source>
+        <translation>Fleacoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Izhod iz aplikacije</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin</source>
-        <translation>Pokaži informacije o Dogecoinu</translation>
+        <source>Show information about Fleacoin</source>
+        <translation>Pokaži informacije o Fleacoinu</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -339,11 +339,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Poustvarjam kazalo blokov na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Pošlji kovance na Dogecoin naslov</translation>
+        <source>Send coins to a Fleacoin address</source>
+        <translation>Pošlji kovance na Fleacoin naslov</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
+        <source>Modify configuration options for Fleacoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -367,8 +367,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Preveri sporočilo ...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Fleacoin</source>
+        <translation>Fleacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,11 +395,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Šifiraj zasebne ključe v moji denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Za dokaz, da ste lastniki sporočil, se podpišite z Dogecoin naslovom</translation>
+        <source>Sign messages with your Fleacoin addresses to prove you own them</source>
+        <translation>Za dokaz, da ste lastniki sporočil, se podpišite z Fleacoin naslovom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Fleacoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -423,16 +423,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Jedro Dogecoina</translation>
+        <source>Fleacoin Core</source>
+        <translation>Jedro Fleacoina</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <source>Request payments (generates QR codes and fleacoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>&amp;O jedru Dogecoina</translation>
+        <source>&amp;About Fleacoin Core</source>
+        <translation>&amp;O jedru Fleacoina</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -443,24 +443,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Prikaži seznam uporabljenih sprejemnih naslovov in oznak</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Odpri Dogecoin: URI ali zahteva o plačilu</translation>
+        <source>Open a fleacoin: URI or payment request</source>
+        <translation>Odpri Fleacoin: URI ali zahteva o plačilu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
+        <source>Show the Fleacoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin client</source>
-        <translation>Dogecoin odjemalec</translation>
+        <source>Fleacoin client</source>
+        <translation>Fleacoin odjemalec</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n aktivna povezava v dogecoin omrežje</numerusform><numerusform>%n aktivni povezavi v dogecoin omrežje</numerusform><numerusform>%n aktivnih povezav v dogecoin omrežje</numerusform><numerusform>%n aktivnih povezav v dogecoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to Fleacoin network</source>
+        <translation><numerusform>%n aktivna povezava v fleacoin omrežje</numerusform><numerusform>%n aktivni povezavi v fleacoin omrežje</numerusform><numerusform>%n aktivnih povezav v fleacoin omrežje</numerusform><numerusform>%n aktivnih povezav v fleacoin omrežje</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -555,7 +555,7 @@ Naslov: %4
         <translation>Denarnica je &lt;b&gt;šifrirana&lt;/b&gt; in trenutno &lt;b&gt;zaklenjena&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Fleacoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -844,8 +844,8 @@ Naslov: %4
         <translation>Vnešeni naslov &quot;%1&quot; je že v imeniku.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
-        <translation>Vnešeni naslov &quot;%1&quot; ni veljaven Dogecoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fleacoin address.</source>
+        <translation>Vnešeni naslov &quot;%1&quot; ni veljaven Fleacoin naslov.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -882,12 +882,12 @@ Naslov: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core - Command-line options</source>
+        <source>Fleacoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Jedro Dogecoina</translation>
+        <source>Fleacoin Core</source>
+        <translation>Jedro Fleacoina</translation>
     </message>
     <message>
         <source>version</source>
@@ -933,15 +933,15 @@ Naslov: %4
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Dobrodošli v jedru Dogecoina</translation>
+        <source>Welcome to Fleacoin Core.</source>
+        <translation>Dobrodošli v jedru Fleacoina</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Fleacoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Fleacoin Core will download and store a copy of the Fleacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -953,8 +953,8 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Fleacoin</source>
+        <translation>Fleacoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1015,12 +1015,12 @@ Naslov: %4
         <translation>Nakazilo plačila &amp; provizija</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Po prijavi v sistem samodejno zaženite Dogecoin.</translation>
+        <source>Automatically start Fleacoin Core after logging in to the system.</source>
+        <translation>Po prijavi v sistem samodejno zaženite Fleacoin.</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>&amp;Zaženi Dogecoin ob prijavi v sistem</translation>
+        <source>&amp;Start Fleacoin Core on system login</source>
+        <translation>&amp;Zaženi Fleacoin ob prijavi v sistem</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1035,7 +1035,7 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
+        <source>Connect to the Fleacoin network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1087,8 +1087,8 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata Dogecoin odjemalca na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira UPnP in je omogočen.</translation>
+        <source>Automatically open the Fleacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata Fleacoin odjemalca na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira UPnP in je omogočen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1143,8 +1143,8 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali Dogecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fleacoin Core.</source>
+        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali Fleacoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1155,7 +1155,7 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
+        <source>Whether to show Fleacoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1210,8 +1210,8 @@ Naslov: %4
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazanim podatkom je lahko potekel rok. Vaša denarnica bo po vzpostavitvi povezave samodejno sinhronizirana z Dogecoin omrežjem, ampak ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fleacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazanim podatkom je lahko potekel rok. Vaša denarnica bo po vzpostavitvi povezave samodejno sinhronizirana z Fleacoin omrežjem, ampak ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1265,7 +1265,7 @@ Naslov: %4
         <translation>Rokovanje z URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Fleacoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1277,7 +1277,7 @@ Naslov: %4
         <translation>Napaka pri zahtevi plačila</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start fleacoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1332,8 +1332,8 @@ Naslov: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Fleacoin</source>
+        <translation>Fleacoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1348,12 +1348,12 @@ Naslov: %4
         <translation>Napaka: Neveljavna kombinacija -regtest and -testnet</translation>
     </message>
     <message>
-        <source>Dogecoin Core did&apos;t yet exit safely...</source>
+        <source>Fleacoin Core did&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Vnesite dogecoin naslov (npr.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Vnesite fleacoin naslov (npr.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
 <context>
@@ -1474,7 +1474,7 @@ Naslov: %4
         <translation>Razhroščevalna dnevniška datoteka</translation>
     </message>
     <message>
-        <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Fleacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1482,7 +1482,7 @@ Naslov: %4
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin RPC console.</source>
+        <source>Welcome to the Fleacoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1545,7 +1545,7 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fleacoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1858,8 +1858,8 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Opozorilo: Neveljaven Dogecoin naslov</translation>
+        <source>Warning: Invalid Fleacoin address</source>
+        <translation>Opozorilo: Neveljaven Fleacoin naslov</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1945,7 +1945,7 @@ Naslov: %4
         <translation>Vnesite oznako za ta naslov, ki bo shranjena v seznam uporabljenih naslovov</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
+        <source>A message that was attached to the fleacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fleacoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1964,7 +1964,7 @@ Naslov: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
+        <source>Fleacoin Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2019,7 +2019,7 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this Fleacoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2047,7 +2047,7 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Fleacoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2059,8 +2059,8 @@ Naslov: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Vnesite dogecoin naslov (npr.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Vnesite fleacoin naslov (npr.: DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2118,11 +2118,11 @@ Naslov: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Jedro Dogecoina</translation>
+        <source>Fleacoin Core</source>
+        <translation>Jedro Fleacoina</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
+        <source>The Fleacoin Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2601,12 +2601,12 @@ Naslov: %4
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: dogecoin.conf)</source>
-        <translation>Določi datoteko z nastavitvami (privzeta: dogecoin.conf)</translation>
+        <source>Specify configuration file (default: fleacoin.conf)</source>
+        <translation>Določi datoteko z nastavitvami (privzeta: fleacoin.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Določi pid datoteko (privzeta: dogecoind.pid)</translation>
+        <translation>Določi pid datoteko (privzeta: fleacoind.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2649,7 +2649,7 @@ Naslov: %4
         <translation>Sprejmi ukaze iz ukazne vrstice in JSON-RPC</translation>
     </message>
     <message>
-        <source>Dogecoin Core RPC client version</source>
+        <source>Fleacoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2674,7 +2674,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fleacoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2747,7 +2747,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>To je pred izdana poizkusna verzija - uporaba na lastno odgovornost - ne uporabljajte je za rudarstvo ali trgovske aplikacije</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Fleacoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2759,7 +2759,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fleacoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2795,7 +2795,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core Daemon</source>
+        <source>Fleacoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3003,7 +3003,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use dogecoin-cli):</source>
+        <source>Usage (deprecated, use fleacoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3039,7 +3039,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fleacoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3127,7 +3127,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>SSL možnosti: (glejte Bitcoin Wiki za navodla, kako nastaviti SSL)</translation>
     </message>
     <message>
-        <source>Send command to Dogecoin Core</source>
+        <source>Send command to Fleacoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3163,7 +3163,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start Dogecoin Core Daemon</source>
+        <source>Start Fleacoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3279,12 +3279,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation>Napaka pri nalaganju wallet.dat: denarnica pokvarjena</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo različico Dogecoina</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fleacoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo različico Fleacoina</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno zaženite Dogecoin za doknčanje</translation>
+        <source>Wallet needed to be rewritten: restart Fleacoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno zaženite Fleacoin za doknčanje</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

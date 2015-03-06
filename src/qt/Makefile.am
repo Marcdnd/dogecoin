@@ -150,7 +150,7 @@ QT_MOC_CPP = \
   moc_walletmodel.cpp \
   moc_walletview.cpp
 
-DOGECOIN_MM = \
+FLEACOIN_MM = \
   macdockiconhandler.mm \
   macnotificationhandler.mm
 
@@ -335,7 +335,7 @@ RES_IMAGES = \
 
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-DOGECOIN_RC = res/fleacoin-qt-res.rc
+FLEACOIN_RC = res/fleacoin-qt-res.rc
 
 libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -357,10 +357,10 @@ fleacoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
 fleacoin_qt_SOURCES = bitcoin.cpp
 if TARGET_DARWIN
-  fleacoin_qt_SOURCES += $(DOGECOIN_MM)
+  fleacoin_qt_SOURCES += $(FLEACOIN_MM)
 endif
 if TARGET_WINDOWS
-  fleacoin_qt_SOURCES += $(DOGECOIN_RC)
+  fleacoin_qt_SOURCES += $(FLEACOIN_RC)
 endif
 fleacoin_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
@@ -382,7 +382,7 @@ QT_QM=$(QT_TS:.ts=.qm)
 bitcoinstrings.cpp: FORCE
 	$(MAKE) -C $(top_srcdir)/src qt/bitcoinstrings.cpp
 
-translate: bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(DOGECOIN_MM)
+translate: bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(FLEACOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
 	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/bitcoin_en.ts
 

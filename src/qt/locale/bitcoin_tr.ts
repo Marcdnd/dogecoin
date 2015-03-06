@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği hakkında</translation>
+        <source>About Fleacoin Core</source>
+        <translation>Fleacoin Çekirdeği hakkında</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Dogecoin Çekirdek&lt;/b&gt; sürümü</translation>
+        <source>&lt;b&gt;Fleacoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fleacoin Çekirdek&lt;/b&gt; sürümü</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Telif hakkı</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Çekirdeği geliştiricileri</translation>
+        <source>The Fleacoin Core developers</source>
+        <translation>Fleacoin Çekirdeği geliştiricileri</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -84,11 +84,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Dogecoin yollanacak adresi seç</translation>
+        <translation>Fleacoin yollanacak adresi seç</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Dogecoin alınacak adresi seç</translation>
+        <translation>Fleacoin alınacak adresi seç</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -103,12 +103,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Alım adresleri</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme yapmak için kullanacağınız Dogecoin adreslerinizdir. Dogecoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
+        <source>These are your Fleacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödeme yapmak için kullanacağınız Fleacoin adreslerinizdir. Fleacoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödeme almak için kullanacağınız Dogecoin adreslerinizdir. Her muamele için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
+        <source>These are your Fleacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödeme almak için kullanacağınız Fleacoin adreslerinizdir. Her muamele için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,7 +205,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdan şifrelenmesini teyit eder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLEACOINS&lt;/b&gt;!</source>
         <translation>Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -225,8 +225,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdan şifrelendi</translation>
     </message>
     <message>
-        <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için Dogecoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Dogecoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>Fleacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fleacoins from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için Fleacoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Fleacoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,8 +296,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Uygulamadan çık</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin</source>
-        <translation>Dogecoin hakkında bilgi göster</translation>
+        <source>Show information about Fleacoin</source>
+        <translation>Fleacoin hakkında bilgi göster</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Diskteki bloklar yeniden endeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Bir Dogecoin adresine Dogecoin yolla</translation>
+        <source>Send coins to a Fleacoin address</source>
+        <translation>Bir Fleacoin adresine Fleacoin yolla</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Dogecoin seçeneklerinin yapılandırmasını değiştir</translation>
+        <source>Modify configuration options for Fleacoin Core</source>
+        <translation>Fleacoin seçeneklerinin yapılandırmasını değiştir</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mesaj &amp;kontrol et...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Fleacoin</source>
+        <translation>Fleacoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdanınızın özel anahtarlarını şifrele</translation>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Dogecoin adresleri ile imzala</translation>
+        <source>Sign messages with your Fleacoin addresses to prove you own them</source>
+        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Fleacoin adresleri ile imzala</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
-        <translation>Belirtilen Dogecoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
+        <source>Verify messages to ensure they were signed with specified Fleacoin addresses</source>
+        <translation>Belirtilen Fleacoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>Fleacoin Core</source>
+        <translation>Fleacoin Çekirdeği</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <source>Request payments (generates QR codes and fleacoin: URIs)</source>
         <translation>Ödeme talep et (QR kodu ve bitcoin URI&apos;si oluşturur)</translation>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği &amp;hakkında</translation>
+        <source>&amp;About Fleacoin Core</source>
+        <translation>Fleacoin Çekirdeği &amp;hakkında</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,24 +448,24 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Kullanılmış alım adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
-        <translation>Bir dogecoin: bağlantısı ya da ödeme talebi aç</translation>
+        <source>Open a fleacoin: URI or payment request</source>
+        <translation>Bir fleacoin: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
-        <translation>Dogecoin komut satırı seçeneklerinin listesini elde etmek için Dogecoin Çekirdeği yardım mesajını göster</translation>
+        <source>Show the Fleacoin Core help message to get a list with possible command-line options</source>
+        <translation>Fleacoin komut satırı seçeneklerinin listesini elde etmek için Fleacoin Çekirdeği yardım mesajını göster</translation>
     </message>
     <message>
-        <source>Dogecoin client</source>
-        <translation>Dogecoin istemcisi</translation>
+        <source>Fleacoin client</source>
+        <translation>Fleacoin istemcisi</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>Dogecoin şebekesine %n faal bağlantı</numerusform><numerusform>Dogecoin şebekesine %n faal bağlantı</numerusform></translation>
+        <source>%n active connection(s) to Fleacoin network</source>
+        <translation><numerusform>Fleacoin şebekesine %n faal bağlantı</numerusform><numerusform>Fleacoin şebekesine %n faal bağlantı</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Adres: %4
         <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilitlidir&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
-        <translation>Ciddi bir hata oluştu. Dogecoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
+        <source>A fatal error occurred. Fleacoin can no longer continue safely and will quit.</source>
+        <translation>Ciddi bir hata oluştu. Fleacoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
     </message>
 </context>
 <context>
@@ -849,8 +849,8 @@ Adres: %4
         <translation>Girilen &quot;%1&quot; adresi hâlihazırda adres defterinde mevcuttur.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir Dogecoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fleacoin address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir Fleacoin adresi değildir.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -887,12 +887,12 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core - Command-line options</source>
-        <translation>Dogecoin Çekirdeği - Komut satırı seçenekleri</translation>
+        <source>Fleacoin Core - Command-line options</source>
+        <translation>Fleacoin Çekirdeği - Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>Fleacoin Core</source>
+        <translation>Fleacoin Çekirdeği</translation>
     </message>
     <message>
         <source>version</source>
@@ -938,16 +938,16 @@ Adres: %4
         <translation>Hoş geldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
-        <translation>Dogecoin Çekirdeğine hoş geldiniz.</translation>
+        <source>Welcome to Fleacoin Core.</source>
+        <translation>Fleacoin Çekirdeğine hoş geldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
-        <translation>Bu programı ilk kez başlattığınızdan dolayı Dogecoin Çekirdeğinin verilerini nereye saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where Fleacoin Core will store its data.</source>
+        <translation>Bu programı ilk kez başlattığınızdan dolayı Fleacoin Çekirdeğinin verilerini nereye saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Dogecoin çekirdeği Dogecoin blok zincirinin bir kopyasını indirip saklayacaktır. Asgari %1GB bouyutunda veri bu klasörde saklanacak ve zamanla bu boyut artacaktır. Cüzdan da bu klasörde saklanacaktır. </translation>
+        <source>Fleacoin Core will download and store a copy of the Fleacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Fleacoin çekirdeği Fleacoin blok zincirinin bir kopyasını indirip saklayacaktır. Asgari %1GB bouyutunda veri bu klasörde saklanacak ve zamanla bu boyut artacaktır. Cüzdan da bu klasörde saklanacaktır. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -958,8 +958,8 @@ Adres: %4
         <translation>Özel bir veri klasörü kullan:</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Fleacoin</source>
+        <translation>Fleacoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1020,12 +1020,12 @@ Adres: %4
         <translation>Muamele ücreti &amp;öde</translation>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
-        <translation>Sistemde oturum açıldığında Dogecoin&apos;i otomatik olarak başlat.</translation>
+        <source>Automatically start Fleacoin Core after logging in to the system.</source>
+        <translation>Sistemde oturum açıldığında Fleacoin&apos;i otomatik olarak başlat.</translation>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
-        <translation>Dogecoin&apos;i sistem oturumuyla &amp;başlat</translation>
+        <source>&amp;Start Fleacoin Core on system login</source>
+        <translation>Fleacoin&apos;i sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1040,8 +1040,8 @@ Adres: %4
         <translation>İş parçacıklarını &amp;denetleme betiği sayısı</translation>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
-        <translation>Dogecoin şebekesine bir SOCKS vekil sunucusu vasıtasıyla bağlan.</translation>
+        <source>Connect to the Fleacoin network through a SOCKS proxy.</source>
+        <translation>Fleacoin şebekesine bir SOCKS vekil sunucusu vasıtasıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1092,8 +1092,8 @@ Adres: %4
         <translation>Teyit edilmemiş para üstünü &amp;harca</translation>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Dogecoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the Fleacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide Fleacoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1148,8 +1148,8 @@ Adres: %4
         <translation>Kullanıcı arayüzü &amp;lisanı:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Dogecoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fleacoin Core.</source>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Fleacoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1157,11 +1157,11 @@ Adres: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Dogecoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>Fleacoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
-        <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
-        <translation>Muamele listesinde Dogecoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
+        <source>Whether to show Fleacoin addresses in the transaction list or not.</source>
+        <translation>Muamele listesinde Fleacoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1215,7 +1215,7 @@ Adres: %4
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fleacoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1270,8 +1270,8 @@ Adres: %4
         <translation>URI yönetimi</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
-        <translation>URI okunamadı! Sebebi geçersiz bir Dogecoin adresi veya hatalı URI parametreleri olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fleacoin address or malformed URI parameters.</source>
+        <translation>URI okunamadı! Sebebi geçersiz bir Fleacoin adresi veya hatalı URI parametreleri olabilir.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1282,8 +1282,8 @@ Adres: %4
         <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Dogecoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <source>Cannot start fleacoin: click-to-pay handler</source>
+        <translation>Fleacoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1337,8 +1337,8 @@ Adres: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Dogecoin</source>
-        <translation>Dogecoin</translation>
+        <source>Fleacoin</source>
+        <translation>Fleacoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1353,12 +1353,12 @@ Adres: %4
         <translation>Hata: -regtest ve -testnet&apos;in geçersiz kombinasyonu.</translation>
     </message>
     <message>
-        <source>Dogecoin Core did&apos;t yet exit safely...</source>
-        <translation>Dogecoin Çekirdeği henüz güvenli bir şekilde çıkış yapmamıştır...</translation>
+        <source>Fleacoin Core did&apos;t yet exit safely...</source>
+        <translation>Fleacoin Çekirdeği henüz güvenli bir şekilde çıkış yapmamıştır...</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Dogecoin adresi giriniz (mesela DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Fleacoin adresi giriniz (mesela DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
 <context>
@@ -1479,16 +1479,16 @@ Adres: %4
         <translation>Hata ayıklama kütük dosyası</translation>
     </message>
     <message>
-        <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Güncel veri klasöründen Dogecoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
+        <source>Open the Fleacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Güncel veri klasöründen Fleacoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Konsolu temizle</translation>
     </message>
     <message>
-        <source>Welcome to the Dogecoin RPC console.</source>
-        <translation>Dogecoin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Fleacoin RPC console.</source>
+        <translation>Fleacoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1550,8 +1550,8 @@ Adres: %4
         <translation>&amp;Hâlihazırda bulunan bir alım adresini kullan (önerilmez)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte Dogecoin şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fleacoin network.</source>
+        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte Fleacoin şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1700,7 +1700,7 @@ Adres: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dogecoin yolla</translation>
+        <translation>Fleacoin yolla</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1863,8 +1863,8 @@ Adres: %4
         <translation>Muamele reddedildi! Cüzdanınızdaki madenî paraların bazıları zaten harcanmış olduğunda bu meydana gelebilir. Örneğin wallet.dat dosyasının bir kopyasını kullandıysanız ve kopyada para harcandığında ancak burada harcandığı işaretlenmediğinde.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Uyarı: geçersiz Dogecoin adresi</translation>
+        <source>Warning: Invalid Fleacoin address</source>
+        <translation>Uyarı: geçersiz Fleacoin adresi</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1950,8 +1950,8 @@ Adres: %4
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
-        <translation>Dogecoin: URI&apos;siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj Dogecoin şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the fleacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fleacoin network.</source>
+        <translation>Fleacoin: URI&apos;siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj Fleacoin şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1969,8 +1969,8 @@ Adres: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Dogecoin Çekirdeği kapanıyor...</translation>
+        <source>Fleacoin Core is shutting down...</source>
+        <translation>Fleacoin Çekirdeği kapanıyor...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2024,8 +2024,8 @@ Adres: %4
         <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
-        <translation>Bu Dogecoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
+        <source>Sign the message to prove you own this Fleacoin address</source>
+        <translation>Bu Fleacoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2052,8 +2052,8 @@ Adres: %4
         <translation>Mesajı imzalamak için kullanılmış olan adres (mesela DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
-        <translation>Belirtilen Dogecoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified Fleacoin address</source>
+        <translation>Belirtilen Fleacoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2064,8 +2064,8 @@ Adres: %4
         <translation>Tüm mesaj kontrolü alanlarını sıfırla</translation>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Dogecoin adresi giriniz (mesela DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Fleacoin adresi giriniz (mesela DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2123,12 +2123,12 @@ Adres: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeği</translation>
+        <source>Fleacoin Core</source>
+        <translation>Fleacoin Çekirdeği</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Dogecoin Çekirdeği geliştiricileri</translation>
+        <source>The Fleacoin Core developers</source>
+        <translation>Fleacoin Çekirdeği geliştiricileri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2549,7 +2549,7 @@ Adres: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Dogecoin yolla</translation>
+        <translation>Fleacoin yolla</translation>
     </message>
 </context>
 <context>
@@ -2606,8 +2606,8 @@ Adres: %4
         <translation>Seçenekler:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: dogecoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: dogecoin.conf)</translation>
+        <source>Specify configuration file (default: fleacoin.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: fleacoin.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
@@ -2654,8 +2654,8 @@ Adres: %4
         <translation>Komut satırı ve JSON-RPC komutlarını kabul et</translation>
     </message>
     <message>
-        <source>Dogecoin Core RPC client version</source>
-        <translation>Dogecoin Çekirdeği RPC istemci sürümü</translation>
+        <source>Fleacoin Core RPC client version</source>
+        <translation>Fleacoin Çekirdeği RPC istemci sürümü</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2679,7 +2679,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fleacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
 %s
@@ -2690,7 +2690,7 @@ rpcpassword=%s
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
 Sorunlar hakkında bildiri almak için alertnotify unsurunu ayarlamanız tavsiye edilir;
-mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+mesela: alertnotify=echo %%s | mail -s &quot;Fleacoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2762,8 +2762,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - bitcoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Dogecoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. Fleacoin Core is probably already running.</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Fleacoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2774,8 +2774,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Uyarı: -paytxfee çok yüksek bir değere ayarlanmış! Bu, muamele gönderirseniz ödeyeceğiniz muamele ücretidir.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse Dogecoin gerektiği gibi çalışamaz.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fleacoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse Fleacoin gerektiği gibi çalışamaz.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2810,8 +2810,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Bozuk bir wallet.dat dosyasından özel anahtarları geri kazanmayı dene</translation>
     </message>
     <message>
-        <source>Dogecoin Core Daemon</source>
-        <translation>Dogecoin Çekirdek servisi</translation>
+        <source>Fleacoin Core Daemon</source>
+        <translation>Fleacoin Çekirdek servisi</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2951,7 +2951,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <source>Generate coins (default: 0)</source>
-        <translation>Dogecoin oluştur (varsayılan: 0)</translation>
+        <translation>Fleacoin oluştur (varsayılan: 0)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
@@ -3018,8 +3018,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Bu, regresyon deneme araçları ve uygulama geliştirmesi için tasarlanmıştır. </translation>
     </message>
     <message>
-        <source>Usage (deprecated, use dogecoin-cli):</source>
-        <translation>Kullanım (önerilmemektedir, dogecoin-cli kullanın):</translation>
+        <source>Usage (deprecated, use fleacoin-cli):</source>
+        <translation>Kullanım (önerilmemektedir, fleacoin-cli kullanın):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3054,8 +3054,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Harici blk000??.dat dosyasından blokları içe aktarır</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi. Dogecoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. Fleacoin Core is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi. Fleacoin Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3119,7 +3119,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL seçenekleri: (SSL kurulumu yönergeleri için Dogecoin vikisine bakınız)</translation>
+        <translation>RPC SSL seçenekleri: (SSL kurulumu yönergeleri için Fleacoin vikisine bakınız)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3139,11 +3139,11 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation> SSL seçenekleri: (SSL kurulum bilgisi için Dogecoin vikisine bakınız)</translation>
+        <translation> SSL seçenekleri: (SSL kurulum bilgisi için Fleacoin vikisine bakınız)</translation>
     </message>
     <message>
-        <source>Send command to Dogecoin Core</source>
-        <translation>Dogecoin Çekirdeğine komut yolla</translation>
+        <source>Send command to Fleacoin Core</source>
+        <translation>Fleacoin Çekirdeğine komut yolla</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3178,8 +3178,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>Bağlantı zaman aşım süresini milisaniye olarak belirt (varsayılan: 5000)</translation>
     </message>
     <message>
-        <source>Start Dogecoin Core Daemon</source>
-        <translation>Dogecoin Çekirdeği servisini başlat</translation>
+        <source>Start Fleacoin Core Daemon</source>
+        <translation>Fleacoin Çekirdeği servisini başlat</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3294,12 +3294,12 @@ mesela: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
         <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: bozuk cüzdan</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Dogecoin sürümüne ihtiyacı var</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fleacoin</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Fleacoin sürümüne ihtiyacı var</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Dogecoin&apos;i yeniden başlatınız</translation>
+        <source>Wallet needed to be rewritten: restart Fleacoin to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Fleacoin&apos;i yeniden başlatınız</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

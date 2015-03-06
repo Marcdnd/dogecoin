@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Dogecoin Core</source>
-        <translation>Acerca de Dogecoin Core</translation>
+        <source>About Fleacoin Core</source>
+        <translation>Acerca de Fleacoin Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Dogecoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Dogecoin Core&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;Fleacoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fleacoin Core&lt;/b&gt; versión</translation>
     </message>
     <message>
         <source>
@@ -23,8 +23,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>Los desarrolladores de Dogecoin Core</translation>
+        <source>The Fleacoin Core developers</source>
+        <translation>Los desarrolladores de Fleacoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -98,12 +98,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Dogecoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
+        <source>These are your Fleacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de Fleacoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
     </message>
     <message>
-        <source>These are your Dogecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones Dogecoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
+        <source>These are your Fleacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones Fleacoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -200,8 +200,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Confirmar la encriptación de cartera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLEACOINS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS FLEACOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -220,8 +220,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cartera encriptada</translation>
     </message>
     <message>
-        <source>Dogecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>Dogecoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus dogecoins de ser robadas por malware infectando tu computadora.</translation>
+        <source>Fleacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fleacoins from being stolen by malware infecting your computer.</source>
+        <translation>Fleacoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus fleacoins de ser robadas por malware infectando tu computadora.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Salir de la aplicación</translation>
     </message>
     <message>
-        <source>Show information about Dogecoin</source>
-        <translation>Mostrar información acerca de Dogecoin</translation>
+        <source>Show information about Fleacoin</source>
+        <translation>Mostrar información acerca de Fleacoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -339,12 +339,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Dogecoin address</source>
-        <translation>Enviar monedas a una dirección Dogecoin</translation>
+        <source>Send coins to a Fleacoin address</source>
+        <translation>Enviar monedas a una dirección Fleacoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Dogecoin Core</source>
-        <translation>Modificar las opciones de configuración de Dogecoin</translation>
+        <source>Modify configuration options for Fleacoin Core</source>
+        <translation>Modificar las opciones de configuración de Fleacoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +367,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Dogecoin</source>
+        <source>Fleacoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -395,11 +395,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+        <source>Sign messages with your Fleacoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Fleacoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -423,15 +423,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Fleacoin Core</source>
+        <translation>nucleo Fleacoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <source>Request payments (generates QR codes and fleacoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Dogecoin Core</source>
+        <source>&amp;About Fleacoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -443,7 +443,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a dogecoin: URI or payment request</source>
+        <source>Open a fleacoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -451,16 +451,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
-        <source>Show the Dogecoin Core help message to get a list with possible command-line options</source>
-        <translation>Mostrar mensaje de ayuda del nucleo de Dogecoin para optener una lista con los posibles comandos  de Dogecoin</translation>
+        <source>Show the Fleacoin Core help message to get a list with possible command-line options</source>
+        <translation>Mostrar mensaje de ayuda del nucleo de Fleacoin para optener una lista con los posibles comandos  de Fleacoin</translation>
     </message>
     <message>
-        <source>Dogecoin client</source>
+        <source>Fleacoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dogecoin network</source>
-        <translation><numerusform>%n Activar conexión a la red de Dogecoin</numerusform><numerusform>%n Activar conexiones a la red de Dogecoin</numerusform></translation>
+        <source>%n active connection(s) to Fleacoin network</source>
+        <translation><numerusform>%n Activar conexión a la red de Fleacoin</numerusform><numerusform>%n Activar conexiones a la red de Fleacoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -551,7 +551,7 @@ Address: %4
         <translation>La cartera esta &lt;b&gt;encriptada&lt;/b&gt; y &lt;b&gt;bloqueada&lt;/b&gt; actualmente </translation>
     </message>
     <message>
-        <source>A fatal error occurred. Dogecoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Fleacoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -840,7 +840,7 @@ Address: %4
         <translation>El domicilio ingresado &quot;%1&quot; ya existe en la libreta de direcciones</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Dogecoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Fleacoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -878,12 +878,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Dogecoin Core - Command-line options</source>
-        <translation>Opciones de lineas de comando del nucleo de Dogecoin</translation>
+        <source>Fleacoin Core - Command-line options</source>
+        <translation>Opciones de lineas de comando del nucleo de Fleacoin</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Fleacoin Core</source>
+        <translation>nucleo Fleacoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -929,15 +929,15 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to Dogecoin Core.</source>
+        <source>Welcome to Fleacoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Dogecoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Fleacoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core will download and store a copy of the Dogecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Fleacoin Core will download and store a copy of the Fleacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -949,7 +949,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin</source>
+        <source>Fleacoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1011,11 +1011,11 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically start Dogecoin Core after logging in to the system.</source>
+        <source>Automatically start Fleacoin Core after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Start Dogecoin Core on system login</source>
+        <source>&amp;Start Fleacoin Core on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1031,7 +1031,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Dogecoin network through a SOCKS proxy.</source>
+        <source>Connect to the Fleacoin network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1083,7 +1083,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Fleacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1139,7 +1139,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Dogecoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fleacoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1151,7 +1151,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whether to show Dogecoin addresses in the transaction list or not.</source>
+        <source>Whether to show Fleacoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1206,7 +1206,7 @@ Address: %4
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fleacoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1261,7 +1261,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Dogecoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Fleacoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1273,7 +1273,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <source>Cannot start fleacoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1328,7 +1328,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Dogecoin</source>
+        <source>Fleacoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1344,12 +1344,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core did&apos;t yet exit safely...</source>
+        <source>Fleacoin Core did&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Ingrese una direccion Dogecoin (ejem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Ingrese una direccion Fleacoin (ejem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
 </context>
 <context>
@@ -1470,7 +1470,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open the Dogecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Fleacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1478,7 +1478,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Welcome to the Dogecoin RPC console.</source>
+        <source>Welcome to the Fleacoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1541,8 +1541,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dogecoin network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Dogecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fleacoin network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Fleacoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1854,8 +1854,8 @@ Address: %4
         <translation>¡La transación fue rechazada! Esto puede ocurrir si algunas de tus monedas en tu cartera han sido gastadas, al igual que si usas una cartera copiada y la monedas fueron gastadas en la copia pero no se marcaron como gastadas.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Dogecoin address</source>
-        <translation>Advertencia: Dirección de Dogecoin invalida</translation>
+        <source>Warning: Invalid Fleacoin address</source>
+        <translation>Advertencia: Dirección de Fleacoin invalida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1941,7 +1941,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the dogecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dogecoin network.</source>
+        <source>A message that was attached to the fleacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fleacoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1960,8 +1960,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Dogecoin Core is shutting down...</source>
-        <translation>Apagando el nucleo de Dogecoin...</translation>
+        <source>Fleacoin Core is shutting down...</source>
+        <translation>Apagando el nucleo de Fleacoin...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2015,7 +2015,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dogecoin address</source>
+        <source>Sign the message to prove you own this Fleacoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2043,7 +2043,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dogecoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Fleacoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2055,8 +2055,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
-        <translation>Ingrese una direccion Dogecoin (ejem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
+        <source>Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</source>
+        <translation>Ingrese una direccion Fleacoin (ejem. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2114,12 +2114,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>nucleo Dogecoin</translation>
+        <source>Fleacoin Core</source>
+        <translation>nucleo Fleacoin</translation>
     </message>
     <message>
-        <source>The Dogecoin Core developers</source>
-        <translation>El nucleo de Dogecoin de desarrolladores</translation>
+        <source>The Fleacoin Core developers</source>
+        <translation>El nucleo de Fleacoin de desarrolladores</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2597,7 +2597,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Specify configuration file (default: dogecoin.conf)</source>
+        <source>Specify configuration file (default: fleacoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2645,7 +2645,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core RPC client version</source>
+        <source>Fleacoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2670,7 +2670,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fleacoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2743,7 +2743,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Dogecoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Fleacoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2755,7 +2755,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Dogecoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fleacoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2791,7 +2791,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Dogecoin Core Daemon</source>
+        <source>Fleacoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2999,7 +2999,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use dogecoin-cli):</source>
+        <source>Usage (deprecated, use fleacoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3035,7 +3035,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Dogecoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fleacoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3123,7 +3123,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send command to Dogecoin Core</source>
+        <source>Send command to Fleacoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3159,7 +3159,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start Dogecoin Core Daemon</source>
+        <source>Start Fleacoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3275,11 +3275,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Dogecoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Dogecoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fleacoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Dogecoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Fleacoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>

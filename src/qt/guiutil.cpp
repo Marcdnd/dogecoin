@@ -86,7 +86,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitcoinAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a Dogecoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)"));
+    widget->setPlaceholderText(QObject::tr("Enter a Fleacoin address (e.g. DJ7zB7c5BsB9UJLy1rKQtY7c6CQfGiaRLM)"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -146,7 +146,7 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
                 // Parse amount in C locale with no number separators
                 QLocale locale(QLocale::c());
                 locale.setNumberOptions(QLocale::OmitGroupSeparator | QLocale::RejectGroupSeparator);
-                if(!BitcoinUnits::parse(BitcoinUnits::DOGE, i->second, &rv.amount, locale))
+                if(!BitcoinUnits::parse(BitcoinUnits::FLEA, i->second, &rv.amount, locale))
                 {
                     return false;
                 }
@@ -188,7 +188,7 @@ QString formatBitcoinURI(const SendCoinsRecipient &info)
     {
         QLocale localeC(QLocale::c());
         localeC.setNumberOptions(QLocale::OmitGroupSeparator | QLocale::RejectGroupSeparator);
-        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::DOGE, info.amount, false, true, localeC));
+        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::FLEA, info.amount, false, true, localeC));
         paramCount++;
     }
 
@@ -515,12 +515,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Dogecoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Fleacoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Dogecoin.lnk
+    // check for Fleacoin.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -638,7 +638,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Dogecoin\n";
+        optionFile << "Name=Fleacoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

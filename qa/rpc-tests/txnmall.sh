@@ -130,7 +130,7 @@ $CLI $B2ARGS addnode 127.0.0.1:11000 onetry
 $CLI $B2ARGS setgenerate true 1
 WaitBlocks
 
-# B1 should have 499998 DOGE; the 5 DOGE send is
+# B1 should have 499998 FLEA; the 5 FLEA send is
 # conflicted, and should not count in
 # balances.
 CheckBalance "$B1ARGS" 499998
@@ -138,7 +138,7 @@ CheckBalance "$B1ARGS" 499998 "*"
 CheckBalance "$B1ARGS" 8 "foo"
 CheckBalance "$B1ARGS" 10 "bar"
 
-# B2 should have 500001 DOGE
+# B2 should have 500001 FLEA
 CheckBalance "$B2ARGS" 500001
 CheckBalance "$B2ARGS" 1 "from1"
 

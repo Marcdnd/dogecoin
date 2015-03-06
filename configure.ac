@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 2)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2014)
-AC_INIT([Fleacoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@dogecoin.com],[dogecoin])
+AC_INIT([Fleacoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@fleacoin.com],[fleacoin])
 AC_CONFIG_AUX_DIR([src/build-aux])
 AC_CONFIG_MACRO_DIR([src/m4])
 AC_CANONICAL_HOST
@@ -508,8 +508,8 @@ AC_ARG_WITH([cli],
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
   [with daemon (default is yes)])],
-  [build_dogecoind=$withval],
-  [build_dogecoind=yes])
+  [build_fleacoind=$withval],
+  [build_fleacoind=yes])
 
 BITCOIN_QT_INIT
 
@@ -547,9 +547,9 @@ fi
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build dogecoind])
-AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_dogecoind = xyes])
-AC_MSG_RESULT($build_dogecoind)
+AC_MSG_CHECKING([whether to build fleacoind])
+AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_fleacoind = xyes])
+AC_MSG_RESULT($build_fleacoind)
 
 AC_MSG_CHECKING([whether to build bitcoin-cli])
 AM_CONDITIONAL([BUILD_BITCOIN_CLI], [test x$build_bitcoin_cli = xyes])
@@ -661,7 +661,7 @@ else
   AC_MSG_RESULT([no])
 fi
 
-if test "x$use_tests$build_dogecoind$use_qt" = "xnonono"; then
+if test "x$use_tests$build_fleacoind$use_qt" = "xnonono"; then
   AC_MSG_ERROR([No targets! Please specify at least one of: --enable-cli --enable-daemon --enable-gui or --enable-tests])
 fi
 

@@ -4,9 +4,9 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITCOIND_BIN=$(top_builddir)/src/dogecoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/dogecoin-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/dogecoin-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/fleacoind$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/fleacoin-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/fleacoin-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 OSX_APP=Fleacoin-Qt.app
@@ -121,7 +121,7 @@ baseline_filtered_combined.info: leveldb_baseline_filtered.info baseline_filtere
 
 test_bitcoin.info: baseline_filtered_combined.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c -d $(abs_builddir)/src -t test_dogecoin -o $@
+	$(LCOV) -c -d $(abs_builddir)/src -t test_fleacoin -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 

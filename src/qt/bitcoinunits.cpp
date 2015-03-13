@@ -19,7 +19,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
     unitlist.append(MFLEA);
     unitlist.append(kFLEA);
     unitlist.append(FLEA);
-    unitlist.append(Koinu);
+    unitlist.append(Pupa);
     return unitlist;
 }
 
@@ -30,7 +30,7 @@ bool BitcoinUnits::valid(int unit)
     case MFLEA:
     case kFLEA:
     case FLEA:
-    case Koinu:
+    case Pupa:
         return true;
     default:
         return false;
@@ -44,7 +44,7 @@ QString BitcoinUnits::name(int unit)
     case MFLEA: return QString("MFLEA");
     case kFLEA: return QString("kFLEA");
     case FLEA: return QString("FLEA");
-    case Koinu: return QString("Koinu");
+    case Pupa: return QString("Pupa");
     default: return QString("???");
     }
 }
@@ -56,7 +56,7 @@ QString BitcoinUnits::description(int unit)
     case MFLEA: return QString("Mega-Fleacoin (1,000,000 FLEA)");
     case kFLEA: return QString("Kilo-Fleacoin (1000 FLEA)");
     case FLEA: return QString("Fleacoin");
-    case Koinu: return QString("Koinu (1 / 100,000,000");
+    case Pupa: return QString("Pupa (1 / 100,000,000");
     default: return QString("???");
     }
 }
@@ -68,7 +68,7 @@ qint64 BitcoinUnits::factor(int unit)
     case MFLEA: return Q_INT64_C(100000000000000);
     case kFLEA: return Q_INT64_C(100000000000);
     case FLEA:  return Q_INT64_C(100000000);
-    case Koinu: return Q_INT64_C(1);
+    case Pupa: return Q_INT64_C(1);
     default:    return Q_INT64_C(100000000);
     }
 }
@@ -80,7 +80,7 @@ qint64 BitcoinUnits::maxAmount(int unit)
     case MFLEA: return Q_INT64_C(900000);
     case kFLEA: return Q_INT64_C(900000000);
     case FLEA:  return Q_INT64_C(900000000000);    //less than the coin supply until the year 2170
-    case Koinu: return Q_INT64_C(9000000000000000000); // Slightly under max value for int64
+    case Pupa: return Q_INT64_C(9000000000000000000); // Slightly under max value for int64
     default:   return 0;
     }
 }
@@ -92,7 +92,7 @@ int BitcoinUnits::amountDigits(int unit)
     case MFLEA: return 6;  // 900,000 (# digits, without commas)
     case kFLEA: return 9;  // 900,000,000
     case FLEA:  return 12; // 900,000,000,000
-    case Koinu: return 19; // 9,000,000,000,000,000,000
+    case Pupa: return 19; // 9,000,000,000,000,000,000
     default: return 0;
     }
 }
@@ -104,7 +104,7 @@ int BitcoinUnits::decimals(int unit)
     case MFLEA: return 14;
     case kFLEA: return 11;
     case FLEA: return 8;
-    case Koinu: return 0;
+    case Pupa: return 0;
     default: return 0;
     }
 }

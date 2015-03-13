@@ -29,7 +29,7 @@ public:
         //formerly uFLEA
         MFLEA = 3,
         kFLEA = 4,
-        Koinu = 5
+        Pupa = 5
     };
 
     //! @name Static API

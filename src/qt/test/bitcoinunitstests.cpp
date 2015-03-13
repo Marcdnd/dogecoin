@@ -22,7 +22,7 @@ void BitcoinUnitsTests::parseTests()
     QCOMPARE(value, 100000000000LL);
     QVERIFY(BitcoinUnits::parse(BitcoinUnits::FLEA, "1,000,000.0", &value, locale1));
     QCOMPARE(value, 100000000000000LL);
-    QVERIFY(BitcoinUnits::parse(BitcoinUnits::Koinu, "1,000,000,000", &value, locale1));
+    QVERIFY(BitcoinUnits::parse(BitcoinUnits::Pupa, "1,000,000,000", &value, locale1));
     QCOMPARE(value, 1000000000LL);
     QVERIFY(BitcoinUnits::parse(BitcoinUnits::kFLEA, "1.0", &value, locale1));
     QCOMPARE(value, 100000000000LL);
@@ -57,7 +57,7 @@ void BitcoinUnitsTests::parseTests()
     QCOMPARE(value, 100000000LL);
     QVERIFY(BitcoinUnits::parse(BitcoinUnits::FLEA, "1,0", &value, locale2));
     QCOMPARE(value, 100000000LL);
-    QVERIFY(BitcoinUnits::parse(BitcoinUnits::Koinu, "1.000.000", &value, locale2));
+    QVERIFY(BitcoinUnits::parse(BitcoinUnits::Pupa, "1.000.000", &value, locale2));
     QCOMPARE(value, 1000000LL);
     // Fail: multiple decimal separators
     QVERIFY(!BitcoinUnits::parse(BitcoinUnits::FLEA, "0,000,000", &value, locale2));
@@ -78,7 +78,7 @@ void BitcoinUnitsTests::parseTests()
     QVERIFY(!BitcoinUnits::parse(BitcoinUnits::FLEA, "1,000.00", &value, locale4));
     // Fail: too many decimals
     QVERIFY(!BitcoinUnits::parse(BitcoinUnits::FLEA, "1000.000000000", &value, locale4));
-    QVERIFY(!BitcoinUnits::parse(BitcoinUnits::Koinu, "1.0", &value, locale4));
+    QVERIFY(!BitcoinUnits::parse(BitcoinUnits::Pupa, "1.0", &value, locale4));
     //no overflow because Fleacoin has unlimited money supply
     /*// Fail: overflow
     QVERIFY(!BitcoinUnits::parse(BitcoinUnits::FLEA, "10000000000.1", &value, locale4));
@@ -97,10 +97,10 @@ void BitcoinUnitsTests::formatTests()
     QCOMPARE(BitcoinUnits::format(BitcoinUnits::FLEA, 0, false, true, locale1), QString("0.00"));
     QCOMPARE(BitcoinUnits::format(BitcoinUnits::kFLEA, 0, false, false, locale1), QString("0.00000000000"));
     QCOMPARE(BitcoinUnits::format(BitcoinUnits::MFLEA, 0, false, false, locale1), QString("0.00000000000000"));
-    QCOMPARE(BitcoinUnits::format(BitcoinUnits::Koinu, 0, false, false, locale1), QString("0.0"));
+    QCOMPARE(BitcoinUnits::format(BitcoinUnits::Pupa, 0, false, false, locale1), QString("0.0"));
     QCOMPARE(BitcoinUnits::format(BitcoinUnits::FLEA, 0, true, false, locale1), QString("+0.00000000"));
-    QCOMPARE(BitcoinUnits::format(BitcoinUnits::Koinu, 100000000, false, true, locale1), QString("100,000,000.0"));
-    QCOMPARE(BitcoinUnits::format(BitcoinUnits::Koinu, 100000000, true, true, locale1), QString("+100,000,000.0"));
+    QCOMPARE(BitcoinUnits::format(BitcoinUnits::Pupa, 100000000, false, true, locale1), QString("100,000,000.0"));
+    QCOMPARE(BitcoinUnits::format(BitcoinUnits::Pupa, 100000000, true, true, locale1), QString("+100,000,000.0"));
 
     QCOMPARE(BitcoinUnits::formatWithUnit(BitcoinUnits::FLEA, 100000000000000LL, false, true, locale1), QString("1,000,000.00 FLEA"));
     QCOMPARE(BitcoinUnits::formatWithUnit(BitcoinUnits::kFLEA, 100000000000000LL, false, true, locale1), QString("1,000.00 kFLEA"));

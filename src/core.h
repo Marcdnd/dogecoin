@@ -1,8 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2011-2013 The Litecoin developers
-// Copyright (c) 2013-2014 The Fleacoin developers
-// Copyright (c)      2014 The Inutoshi developers
+// Copyright (c) 2013-2014 The Dogecoin developers
+// Copyright (c) 2014-2015 The Inutoshi developers
+// Copyright (c)      2015 The Fleacoin developers
+
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -29,18 +31,18 @@ template <typename Stream>
 int ReadWriteAuxPow(Stream& s, const boost::shared_ptr<CAuxPow>& auxpow, int nType, int nVersion, CSerActionGetSerializeSize ser_action);
 
 // primary version
-static const int BLOCK_VERSION_DEFAULT = (1 << 0);
-static const int BLOCK_VERSION_AUXPOW = (1 << 8);
-static const int BLOCK_VERSION_CHAIN_START = (1 << 16);
+static const int BLOCK_VERSION_DEFAULT = (1 << 4);
+static const int BLOCK_VERSION_AUXPOW = (1 << 12);
+static const int BLOCK_VERSION_CHAIN_START = (1 << 20);
 static const int BLOCK_VERSION_CHAIN_END = (1 << 30);
 
-// FleaCoin aux chain ID = 0x0062 (98)
-static const int AUXPOW_CHAIN_ID = 0x0062;
-static const int AUXPOW_START_MAINNET = 371337;
-static const int AUXPOW_START_TESTNET = 158100;
+// FleaCoin aux chain ID = 0x1111 (4369)
+static const int AUXPOW_CHAIN_ID = 0x1111;
+static const int AUXPOW_START_MAINNET = 0;
+static const int AUXPOW_START_TESTNET = 0;
 
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 10000000000 * COIN; // Fleacoin: maximum of 100B coins (given some randomness), max transaction 10,000,000,000
+static const int64_t MAX_MONEY = 3 141 592 * COIN; // Fleacoin: maximum of 3,141,592 (PI * 1M) coins (given some randomness), max transaction  PI*1M/2
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
 /** An outpoint - a combination of a transaction hash and an index n into its vout */

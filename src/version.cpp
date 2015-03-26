@@ -10,10 +10,10 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both fleacoind and fleacoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("Shibetoshi");
+const std::string CLIENT_NAME("Fleacoin");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   ""
+#define CLIENT_VERSION_SUFFIX   "devel"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
